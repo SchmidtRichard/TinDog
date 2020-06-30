@@ -9,36 +9,37 @@ h1 {
   line-height: 1.5;
 }
 
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+p {
+  color: #8F8F8F;
+}
+
 /****************** .CLASS SELECTORS ******************/
 .container-fluid {
   padding: 3% 15%;
 }
 
-.features-p {
-  color: #8F8F8F;
-}
-
-.features-h {
-  font-family: 'Montserrat-Black', sans-serif;
-}
-
+/* Features Section */
 .feat-div {
-  display: inline-block;
+  text-align: center;
+  padding: 5%;
 }
 
-.fas {
+.icon {
   color: #EF8172;
-  font-size: 45px;
+  margin-bottom: 1rem;
 }
 
-.fas:hover {
+.icon:hover {
   color: #FF4C68;
 }
 
-/****************** #ID SELECTORS ******************/
-#title {
-  background-color: #FF4C68;
-  color: #FFF;
+#features {
+  padding: 7% 15%;
 }
 
 /* Navigation Bar */
@@ -70,4 +71,10 @@ h1 {
 .title-image {
   width: 60%;
   transform: rotate(25deg);
+}
+
+/****************** #ID SELECTORS ******************/
+#title {
+  background-color: #FF4C68;
+  color: #FFF;
 }
