@@ -14,6 +14,27 @@ h1 {
   padding: 3% 15%;
 }
 
+.features-p {
+  color: #8F8F8F;
+}
+
+.features-h {
+  font-family: 'Montserrat-Black', sans-serif;
+}
+
+.feat-div {
+  display: inline-block;
+}
+
+.fas {
+  color: #EF8172;
+  font-size: 45px;
+}
+
+.fas:hover {
+  color: #FF4C68;
+}
+
 /****************** #ID SELECTORS ******************/
 #title {
   background-color: #FF4C68;
