@@ -109,6 +109,16 @@ p {
   margin: 20px 20px 50px;
 }
 
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
 /****************** #ID SELECTORS ******************/
 #title {
   background-color: #FF4C68;
