@@ -27,7 +27,7 @@ p {
 
 /****************** .CLASS SELECTORS ******************/
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 /* Features Section */
@@ -47,6 +47,8 @@ p {
 
 #features {
   padding: 7% 15%;
+  background-color: #FFF;
+  position: relative;
 }
 
 /* Navigation Bar */
@@ -74,10 +76,17 @@ p {
   margin: 5% 3% 5% 0;
 }
 
-/* Title Image */
+/* Title Section */
 .title-image {
-  width: 60%;
+  width: 50%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+#title {
+  background-color: #FF4C68;
+  color: #FFF;
 }
 
 /* Testimonial Section */
@@ -120,7 +129,3 @@ p {
 }
 
 /****************** #ID SELECTORS ******************/
-#title {
-  background-color: #FF4C68;
-  color: #FFF;
-}
