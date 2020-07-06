@@ -140,4 +140,34 @@ p {
   }
 }
 
+/* Call to Action Section */
+#cta {
+  background-color: #FF4C68;
+  color: #FFF;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.cta-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Footer Section */
+#footer {
+  text-align: center;
+  background-color: #FFF;
+  padding: 7% 15%;
+}
+
+.icon-media {
+  margin: 20px 10px;
+}
+
+.icon-media:hover {
+  opacity: 0.5;
+}
+
 /****************** #ID SELECTORS ******************/
