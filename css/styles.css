@@ -13,9 +13,19 @@ p {
   color: #8F8F8F;
 }
 
-/****************** .CLASS SELECTORS ******************/
+/* Containers */
 .container-fluid {
   padding: 7% 15%;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #FF4C68;
+  color: #FFF;
+}
+
+.white-section {
+  background-color: #FFF;
 }
 
 /* Headings */
@@ -45,7 +55,6 @@ p {
 }
 
 #features {
-  background-color: #FFF;
   position: relative;
 }
 
@@ -86,20 +95,14 @@ p {
   right: 30%;
 }
 
-#title {
-  background-color: #FF4C68;
-  color: #FFF;
-  text-align: left;
-}
-
 #title .container-fluid {
   padding: 3% 15% 7%;
+  text-align: left;
 }
 
 /* Testimonial Section */
 #testimonials {
   background-color: #EF8172;
-  color: #FFF;
 }
 
 .testimonial-image {
@@ -136,12 +139,6 @@ p {
 .price-text {
   font-size: 3rem;
   line-height: 1.5;
-}
-
-/* Call to Action Section */
-#cta {
-  background-color: #FF4C68;
-  color: #FFF;
 }
 
 /* Footer Section */
